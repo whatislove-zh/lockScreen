@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+
+.time{
+    font-size: 100px
+}
+
+h1 span{
+    font-size: 27px;
+}
+h1{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+h2{
+    font-size: 27px;
+    opacity: 0.5;
+}
+
+@media(max-width: 700px){
+    .time{
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 440px){
+    h1 span{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
